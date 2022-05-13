@@ -136,7 +136,7 @@ pipeline {
     }
 
     // In this example, all is built and run from the master
-
+    agent { node { label '*' } }
     // Pipeline stages
     stages {
 
